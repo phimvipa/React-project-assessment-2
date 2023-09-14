@@ -1,7 +1,7 @@
 
 import './App.css'
 import React from 'react'
-import Homepage from './component/Homepage'
+import Homepage from './Component/Homepage'
 import { useState } from 'react'
 import {nanoid} from 'nanoid';
 

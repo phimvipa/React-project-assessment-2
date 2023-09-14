@@ -10,10 +10,10 @@ import {
 } from "react-router-dom";
 
 // import page
-import MyProfiles from './component/MyProfiles.jsx'
-import Homepage from './component/Homepage.jsx'
-import Adminpage from './component/Adminpage.jsx'
-import Userpage from './component/Userpage.jsx'
+import MyProfiles from './Component/MyProfiles.jsx'
+import Homepage from './Component/Homepage.jsx'
+import Adminpage from './Component/Adminpage.jsx'
+import Userpage from './Component/Userpage.jsx'
 
 const router = createBrowserRouter([  
   {
