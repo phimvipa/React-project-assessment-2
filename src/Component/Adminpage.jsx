@@ -12,24 +12,21 @@ const Adminpage = () => {
       <ButtonSector />
       
       <h2>Create User Here</h2>
-      <form onSubmit={handleAddfromSubmit}>
+      <form>
       <input
         type="text"
         placeholder="Name"
         name="name" required="required"
-        onChange={handleAddfromchange}
       />
       <input
         type="text"
         placeholder="Lastname"
         name="lastname" required="required"
-        onChange={handleAddfromchange}
       />
       <input
         type="text"
         placeholder="Position"
         name="position" required="required"
-        onChange={handleAddfromchange}
       />
       </form>
       <button type="submit">Save</button>
@@ -44,14 +41,14 @@ const Adminpage = () => {
               </tr>
             </thead>
             <tbody>
-              {contacts.map((employee) => (
+              {/* {contacts.map((employee) => (
                 <tr>
                 <td>{employee.name}</td>
                 <td>{employee.lastname}</td>
                 <td>{employee.position}</td>
                 <td>{}</td>
             </tr>
-              ))}
+              ))} */}
             </tbody>
           </table>
       </div>
