@@ -63,7 +63,6 @@ const App = () => {
     const handleDeleteClick = () => {
         const newEmployees = [...employee];
 
-        const index = employee.findIndex(() => )
     }
 
     return (
